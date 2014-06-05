@@ -19,7 +19,7 @@ Para compilar o exercício de MPI
 mpicc matriz-mpi.c -o matriz-mpi
 
 # para rodar
-mpicc -np [NUM DE PROCS] ./matriz-mpi [TAM DA MATRIZ]
+mpirun -np [NUM DE PROCS] ./matriz-mpi [TAM DA MATRIZ]
 ```
 
 ## Comparativo entre MPI, THREADS E FORKS
