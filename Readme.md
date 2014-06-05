@@ -22,7 +22,7 @@ mpicc matriz-mpi.c -o matriz-mpi
 mpicc -np [NUM DE PROCS] ./matriz-mpi [TAM DA MATRIZ]
 ```
 
-# Comparativo entre MPI, THREADS E FORKS
+## Comparativo entre MPI, THREADS E FORKS
 
 | Tipo     | 1 proc    | 2 proc     | 4 proc    | 8 proc    |
 | -------- | --------- | ---------- | --------- | --------- |
